@@ -145,6 +145,6 @@ id:Int!body:String!product:Product!user:User!
 #"""
 #A Subscription for whenever a new review has been added.
 #"""
-#type Subscription {
+type Subscription {
 reviewAdded:Review
 }
